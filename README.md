@@ -7,10 +7,10 @@ No need to install python environment on PC.
 - 1. GO TO GITHUB REPOSITORY --> [github repository link](https://github.com/jerry-git/learn-python3)
 
 - 2. OPEN JUPYTER NOTEBOOK
-![picture](resources\learn-python3-github.png)
+![picture](resources/learn-python3-github.png)
 
 - 3. RUN JUPYTER NOTEBOOK IN BINDER
-![picture](resources\learn-python3-binder.png)
+![picture](resources/learn-python3-binder.png)
 
 ## Python e-knjiga za začetnike s fakultete FRI
 - [povezava do knjige](http://zalozba.fri.uni-lj.si/moskon2020.pdf)
