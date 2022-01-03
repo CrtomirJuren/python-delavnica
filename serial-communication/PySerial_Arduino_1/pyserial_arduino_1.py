@@ -134,12 +134,3 @@ except:
     print("An exception occurred")
     port.close()
     print('port closed')
-    
-""" VPRAŠANJA
-KAJ SE JE ZGODILO TUKAJ?
-a = string * 5
-print(string)
-print(a)
-155
-155155155155155
-"""

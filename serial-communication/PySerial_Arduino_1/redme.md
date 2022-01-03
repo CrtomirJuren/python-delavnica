@@ -1,9 +1,14 @@
 # PYSERIAL 1
 
+# About
 -	pyserial python + arduino hello world 
 -	OUTPUTS DATA ALL THE TIME, no logic involved
 -	arduino is sending potentimoeter data every 200ms
 -	python is reading data. no user inputs
+
+## How to use
+- first upload arduino code
+- than run python code
 
 ## ARDUINO CODE
 ```
