@@ -29,20 +29,23 @@ No need to install python environment on PC.
 - [Povezava do predavanj](https://github.com/jankoslavic/pypinm). Predavanja se lahko zažene interaktivno online, brez lokalne python inštalacije.
 
 ## <b>Cilji delavnice</b>
-- Serijska komunikacija s Arduinom
+- osnove pythona
+- Pyserial : Serijska komunikacija s Arduinom
 - File IO: shranjevanje in branje datotek
 - Risanje grafov: osvojiti osnove matplotlib modula
 
-## <b>Vaje</b>
+## <b> Vaje - Potek</b>
 
 <!--- 2. [Installing Python](installing-python.md)!--->
 <!--- 3. [Getting started with Python](getting-started.md)!--->
 <!--- 4. [ThinkPython: The way of the program](the-way-of-the-program.md)!--->
-<!--- 5: [Strings](1_hello_world_strings.ipynb)!--->
+1. DELAVNICA
+- Strings: printing pine trees, kvadrati, sahovnica, funkcije
 <!--- 5. [Variables, Booleans and None](variables.md)!--->
 <!--- 6. [Using functions](using-functions.md)!--->
 <!--- 7. [Setting up an editor](editor-setup.md)!--->
-<!--- 3: [Pogojni stavki] !--->
+2. DELAVNICA
+- Pogojni stavki
 <!--- 5: [Conditional Statements]!--->
 <!--- 8. [If, else and elif](if.md)!--->
 <!--- 9. [Handy stuff with strings](handy-stuff-strings.md)!--->
