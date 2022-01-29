@@ -52,7 +52,9 @@ No need to install python environment on PC.
 <!--- 10. [Lists and tuples](lists-and-tuples.md)!--->
 <!--- 11. [Loops](loops.md)!--->
 <!--- 12. [Trey Hunner: zip and enumerate](trey-hunner-zip-and-enumerate.md)!--->
-<!--- 13. [Dictionaries](dicts.md)!--->
+13. [List](\theory\list.md)
+13. [Touple](\theory\tuple.md)
+13. [Dictionary](\theory\dictionary.md)
 <!--- 14. [Defining functions](defining-functions.md)!--->
 <!--- 15. [Writing a larger program](larger-program.md)!--->
 <!--- 16. [What is true?](what-is-true.md)!--->
