@@ -20,6 +20,9 @@ No need to install python environment on PC.
 ### <b>Python e-knjiga za začetnike s fakultete FRI</b>
 - [povezava do knjige](http://zalozba.fri.uni-lj.si/moskon2020.pdf)
 
+### <b> How to think like a computer scientist </b>
+- [How to Think Like a Computer Scientist](http://openbookproject.net/thinkcs/python/english3e/#)
+
 ### <b>Tutorial on REPLIT.com</b>
 - REPLIT je free online python editor
 - [povezava do tutoriala](https://replit.com/talk/learn/sparklessparklesThe-Python-Tutorialsparklessparkles/120516)
@@ -29,7 +32,7 @@ No need to install python environment on PC.
 - [Povezava do predavanj](https://github.com/jankoslavic/pypinm). Predavanja se lahko zažene interaktivno online, brez lokalne python inštalacije.
 
 ## <b>Cilji delavnice</b>
-- osnove pythona
+- Python basics
 - Pyserial : Serijska komunikacija s Arduinom
 - File IO: shranjevanje in branje datotek
 - Risanje grafov: osvojiti osnove matplotlib modula
@@ -68,9 +71,6 @@ No need to install python environment on PC.
 ## serial dashboard
 https://github.com/justinbois/serial-dashboard
 pip install serial-dashboard
-
-
-
 
 1. [What is programming?](what-is-programming.md)
 

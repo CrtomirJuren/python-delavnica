@@ -6,10 +6,10 @@ Keys describe data, value represents data
 Example 1 create a dictionary with var={}
 ```python
 dictionary = {
-    "name": "Janez",
-    "surname": "Novak",
+    "name":     "Janez",
+    "surname":  "Novak",
     "language": "Python",
-    owns_dog=True
+    owns_dog = True
 }
 ```
 
@@ -25,7 +25,7 @@ dictionary["name"]
 
 ## Iterating dictionaries
 
-### Accessing values
+- Accessing values
 ```python
 Using .values()
 

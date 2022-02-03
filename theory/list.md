@@ -1,24 +1,35 @@
 # Lists
 
-- Lists are mutable sequences (items can be changed)
-
+- Lists is a mutable sequence type (items can be changed)
 
 ## Initializing
+
+- 1st variant - manual
 ```python
 items = []
 items = [1, 2, 3]
 ```
 
-With range( ) function.
-create a range and convert it to list
+- 2nd variant - range( ) and convert to list
 ```python
 items = list(range(4))     # [0, 1, 2, 3]
 items = list(range(1,4))   # [1, 2, 3]
 items = list(range(1,4,2)) # [1, 3]
 ```
 
-Using list comprehansion. Advanced, more elegant, harder.
+-3rd variant - for loop
 ```python
+l = []
+for i in range(3):
+    l.append(i)
+# [1, 2, 3]
+```
+
+-4th variant - list comprehansion
+```python
+l = [x for x in range(3)]
+# [1, 2, 3]
+
 pow2 = [2 ** x for x in range(10)]
 # [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
 
@@ -275,4 +286,17 @@ board = [['X','O','O'],
 # Nested indexing
 ```python
 board[0][0]
+```
+
+# LIST COPYING
+```
+10.59 sec (105.9 µs/itn) - copy.deepcopy(old_list)
+10.16 sec (101.6 µs/itn) - pure Python Copy() method copying classes with deepcopy
+1.488 sec (14.88 µs/itn) - pure Python Copy() method not copying classes (only dicts/lists/tuples)
+0.325 sec (3.25 µs/itn)  - for item in old_list: new_list.append(item)
+0.217 sec (2.17 µs/itn)  - [i for i in old_list] (a list comprehension)
+0.186 sec (1.86 µs/itn)  - copy.copy(old_list)
+0.075 sec (0.75 µs/itn)  - list(old_list)
+0.053 sec (0.53 µs/itn)  - new_list = []; new_list.extend(old_list)
+0.039 sec (0.39 µs/itn)  - old_list[:] (list slicing)
 ```
