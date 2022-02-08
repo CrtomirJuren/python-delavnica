@@ -1,25 +1,31 @@
-list1 = ["Mo", "im", "j", "Fra"]
+﻿list1 = ["Mo", "im", "j", "Fra"]
 list2 = ["je", "e", "e", "nce"]
 
-# ------------ PRVI NAČIN ----------
-# list_new = []
-# for i in range(4):
-#     item = list1[i] + list2[i]
-#     list_new.append(item)
+zlog1 = list1[0] + list2[0]
+zlog2 = list1[1] + list2[1]
+zlog2 = list1[2] + list2[2]
 
-# for i in range(4):
-#     item = list1[i] + list2[i]
-#     list_new.append(item)
+# expected result
+# stavek = 'Moje ime je France'
+# zlog = list1[3]
+# print(zlog)ž
+stavek = ''
+# ------------ PREPROST NAČIN ----------
+# for i in range(len(list1)):
+#     zlog1 = list1[i]
+#     zlog2 = list2[i]
 
-# stavek = ""
-# for i in range (4):
-#     stavek += list_new[i] + ' '
+#     stavek += zlog1 + zlog2 +' '
+
+stavek += '.'
+print(stavek)
+
+
 
 # print(stavek)
 
 
-# -------------DRUGI NAČIN, ELEGANTNEJŠE ----------
-# print(list(zip(list1, list2)))
+# -------- NAPREDNI NAČIN, ELEGANTNEJŠE ----------
 # stavek = ''
 # for element in zip(list1, list2):
 #     stavek += ''.join(element) + ' '

@@ -1,21 +1,27 @@
 """ str 65 sprehajanje čez sezname z zanko for """
 
 #2nd variant - range to list
-seznam = list(range(3))
-for element in seznam:
-    print(element)
+# index = 0
+# # seznam = list(range(3))
+# seznam = ['a','b','c']
+# for element in seznam:
+#     print(f'element = {element}, index = {index}')
+#     index += 1
 
-
-""" sprehanjanje čez indexe seznama """
+# """ sprehanjanje čez indexe seznama """
 seznam = ['rdeča', 'roza','modra','siva']
 
-# 1 način
-for index in range(len(seznam)):
-    element = seznam[index]
-    print(index, element)
+# print(len(seznam))
+# # # 1 način
+# for index in range(len(seznam)):
+#     element = seznam[index]
+#     print(index, element)
 
-# 2 način, elegantnejše
+# # 2 način, elegantnejše
+# print(list(enumerate(seznam)))
+
+# for element in enumerate(seznam):
+    # print(element)
+
 for index, element in enumerate(seznam):
-    print(index, element)
-
-
+    print(f'index = {index},  element = {element}')
