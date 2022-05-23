@@ -1,30 +1,30 @@
-from functions import *
+# from functions import *
 
-def check_rows(board, player): 
-    """ 3 rows check """
+# def check_rows(board, player): 
+#     """ 3 rows check """
 
-    row_1 = board[0] # 1,2,3
-    row_2 = board[1] # 4,5,6
-    row_3 = board[2] # 7,8,9
+#     row_1 = board[0] # 1,2,3
+#     row_2 = board[1] # 4,5,6
+#     row_3 = board[2] # 7,8,9
 
-    r_1_win = (row_1.count(player) == 3)
-    r_2_win = (row_2.count(player) == 3)
-    r_3_win = (row_3.count(player) == 3)
+#     r_1_win = (row_1.count(player) == 3)
+#     r_2_win = (row_2.count(player) == 3)
+#     r_3_win = (row_3.count(player) == 3)
 
-    win = (r_1_win or r_2_win or r_3_win)
+#     win = (r_1_win or r_2_win or r_3_win)
 
-    # print where the win happended
-    if win:
-        if r_1_win:
-            print(f'{player} win on row 1')
-        elif r_2_win:
-            print(f'{player} win on row 2')
-        elif r_3_win:
-            print(f'{player} win on row 3')
-        else:
-            pass
+#     # print where the win happended
+#     if win:
+#         if r_1_win:
+#             print(f'{player} win on row 1')
+#         elif r_2_win:
+#             print(f'{player} win on row 2')
+#         elif r_3_win:
+#             print(f'{player} win on row 3')
+#         else:
+#             pass
 
-    return win
+#     return win
 
 # def check_columns(board,player): 
 #     """ 3 columns check """
@@ -56,11 +56,11 @@ def check_rows(board, player):
 
 # --- program ---
 
-board = generate_random_board()
-print_board(board)
+# board = generate_random_board()
+# print_board(board)
 
-print(check_rows(board, 'X'))
-print(check_rows(board, 'O'))
+# print(check_rows(board, 'X'))
+# print(check_rows(board, 'O'))
 # # --- VRSTICE ---
 
 # # vrstica je sestavljena, iz 3 zaporednih elementov

@@ -1,0 +1,11 @@
+name: env-py
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - pip:
+    - lvm_read  
